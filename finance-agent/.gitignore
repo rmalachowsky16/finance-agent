@@ -1,0 +1,55 @@
+# ── Secrets ──────────────────────────────────────────────────────────────────
+.env
+*.env.local
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Pytest ────────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Type checkers / linters ───────────────────────────────────────────────────
+.mypy_cache/
+.ruff_cache/
+
+# ── SEC EDGAR downloads (can be large and are reproducible) ──────────────────
+sec-edgar-filings/
+/tmp/sec_filings/
+
+# ── ChromaDB local vector store ───────────────────────────────────────────────
+.chroma/
+chroma_db/
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Jupyter (future use) ──────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.iml
+
+# ── Windows ───────────────────────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+ehthumbs.db
