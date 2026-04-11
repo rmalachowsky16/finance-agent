@@ -1,9 +1,7 @@
 # PROJECT_BRIEF.md
 # Finance Agent — Living Context Document
 
-> This document is the single source of truth for all AI-assisted planning and development sessions.
-> Paste the relevant sections at the start of every new chat to restore context instantly.
-> Update it at the end of every meaningful session.
+> This document is the single source of truth for all planning and development sessions.
 
 ---
 
